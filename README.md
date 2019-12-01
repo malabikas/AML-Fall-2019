@@ -8,6 +8,15 @@ The [paper](https://arxiv.org/pdf/1512.05193.pdf) asserts that Attention-Based C
 
 ## Background
 
+Modeling a pair of sentences is a critical task for many NLP applications. 
+<need to edit> 
+s0 how much did Waterboy gross?
+s1+ the movie earned $161.5 million
+s1- this was Jerry Reed’s final film appearance
+For AS, correctly answering s0 requires attention on “gross”: s1+ contains a corresponding unit (“earned”) while s1- does not.
+
+
+
 ## Setup
 
 ## Experiment
