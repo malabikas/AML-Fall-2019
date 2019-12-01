@@ -6,5 +6,17 @@ This page lists down the observations and results performed as a part of the pro
 ## ABCNN: Attention-Based Convolutional Neural Network for Modelling Sentence Pairs
 The [paper](https://arxiv.org/pdf/1512.05193.pdf) asserts that Attention-Based Convolutional Neural Networks (CNNs) perform better than CNNs without attention mechanisms. The paper integrated attention into CNNs for sentence pair modelling. Sentence pair modelling is a critical task in many Natural Language Processing (NLP) tasks such as Answer Selection, Paraphrase Identification and Textual Entailment. The experiments were performed for these three tasks. For this project, we are going to focus on Answer Selection.
 
+## Background
+
+## Setup
+
+## Experiment
+
+## Results
+
+## Conclusion
+
+## Papers
+
 
 
