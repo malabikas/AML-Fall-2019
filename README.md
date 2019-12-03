@@ -21,10 +21,12 @@ For AS, correctly answering s0 requires attention on “gross”: s1+ contains a
 
 The experiments were run on a Windows Machine using Python with the following specifications -
 
-1. Windows 10 blah blah
-2. Python 3.4
-3. Tensorflow
-4. WikiQA Corpus
+1. Windows 10 Predator PH315-52/64-bit/i7/32GB RAM 
+2. Python 3.7.4
+3. tensorflow == 1.14.0
+4. numpy == 1.17.4
+5. sklearn == 0.21.3
+5. [WikiQA Corpus](https://www.microsoft.com/en-us/download/details.aspx?id=52419)
 
 
 ## Experiment
