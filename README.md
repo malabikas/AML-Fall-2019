@@ -19,6 +19,14 @@ For AS, correctly answering s0 requires attention on “gross”: s1+ contains a
 
 ## Setup
 
+The experiments were run on a Windows Machine using Python with the following specifications -
+
+1. Windows 10 blah blah
+2. Python 3.4
+3. Tensorflow
+4. WikiQA Corpus
+
+
 ## Experiment
 
 ## Results
