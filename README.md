@@ -30,6 +30,11 @@ The experiments were run on a Windows Machine using Python with the following sp
 
 
 ## Experiment
+The paper referred concludes that in Answer Selection we get better performance results while using attention-based model as compared to any other model. ABCNN3 outperforms other model also, BCNN outperforms baseline models like LSTM and CNN. Due to the limited size of training data, increasing the number of convolutional layers did not show any significant improvement in the performance. 
+They concluded by stating Attention based models can be used to build really strong neural networks.
+
+
+
 
 ## Results
 
