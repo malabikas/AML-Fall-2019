@@ -32,7 +32,7 @@ The experiments were run on a Windows Machine using Python with the following sp
 ## Experiment
 The paper referred concludes that in Answer Selection the non-attention network BCNN already performs better than the baselines. Attention-based CNNs perform better than CNNs without attention mechanisms. For CNNs, they have test one (one-conv) and two (two-conv)
 convolution-pooling blocks. The ABCNN-2 generally outperforms the  ABCNN-1 and the ABCNN3 surpasses both because, when combine the ABCNN-1 and the ABCNN-2 to form the ABCNN-3, as ability to take attention of finer-grained granularity into consideration in each convolution-pooling block. But, Due to the limited size of training data, increasing the number of convolutional layers did not show any significant improvement in the performance.
-Baselines which thy have considered, the first three are by Yang et al. (2015): (i) WordCnt; (ii) WgtWordCnt; (iii) CNN-Cnt (the state-of-theart system): combine CNN with (i) and (ii). Apart from the baselines considered by Yang et al. (2015), they have also considered two LSTM baselines. Addition and A-LSTM 
+Baselines which thy have considered, the first three are by Yang et al.: WordCnt; WgtWordCnt; CNN-Cnt (the state-of-theart system): combine CNN with WordCnt and WgtWordCnt. Apart from the baselines considered by Yang et al. (2015), they have also considered two LSTM baselines. Addition and A-LSTM 
 In addition, linguistic features contribute in all three tasks: improvements by 0.0321 (MAP) and 0.0338 (MRR).
 They concluded by stating Attention based models can be used to build really strong neural networks.
 
