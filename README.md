@@ -36,10 +36,8 @@ The models which we are replicating are Bi-CNN, ABCNN1, ABCNN2, ABCNN3.
 
 IN every models we will be using 2 types of classifiers that is Linear Regression and Support Vector Machines along with Adam Optimiser to further improve the test results presented in the original paper.
 
-The main focus on using Attention based model is to show its wide variety of applications in different types of NLP operations and its effectiveness. Attention-based DL systems have been applied to NLP after their success in computer vision and speech recognition.
+The main focus on using Attention based model is to show its wide variety of applications in different types of NLP operations and its effectiveness. Attention-based DL systems are now applied to NLP after their success in computer vision and speech recognition.
 
-They mainly rely on RNNs and end-to-end encoderdecoders for tasks such as machine translation
-In the original paper they have covered 3 different tasks such as Answer secection, Paraphrase Identification and Textual Entailment.
 
 ## Results
 
