@@ -106,8 +106,6 @@ Q- when did proof die
 A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and 
 actor from detroit , michigan .
 
-max MAP: 0.6510566209234175, max MRR: 0.6641459551771827
-
 **BCNN - 2 layer SVM**
 
 Q- who is st patty ? 
@@ -132,8 +130,6 @@ Q- when did proof die
 A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and 
 actor from detroit , michigan .
 
-max MAP: 0.6493646812360265, max MRR: 0.6622141804240569
-
 **BCNN - 1 layer LR**
 
 Q- who is st patty ? 
@@ -156,8 +152,6 @@ drummer george newsome ; and lead vocalist and saxophonist colin cooper .
 Q- when did proof die 
 
 A- in 2006 , proof was shot and killed during an altercation at the ccc nightclub in detroit .
-
-max MAP: 0.6498818245318789, max MRR: 0.6592214712585085
 
 **BCNN - 1 layer SVM**
 
@@ -183,8 +177,6 @@ Q- when did proof die
 A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and 
 actor from detroit , michigan .
 
-max MAP: 0.6507638844777246, max MRR: 0.6581023019809028
-
 **ABCNN1 - 2 layer LR**
 
 Q- who is st patty ? 
@@ -208,8 +200,6 @@ Q- when did proof die
 
 A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and 
 actor from detroit , michigan .
-
-max MAP: 0.6796591410508728, max MRR: 0.6884243022157253
 
 **ABCNN1 - 2 layer SVM**
 
@@ -235,8 +225,6 @@ Q- when did proof die
 A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and 
 actor from detroit , michigan .
 
-max MAP: 0.6757270541529802, max MRR: 0.6827977463779933
-
 **ABCNN1 - 1 layer LR**
 
 Q- who is st patty ? 
@@ -259,8 +247,6 @@ drummer george newsome ; and lead vocalist and saxophonist colin cooper .
 Q- when did proof die 
 
 A- in 2006 , proof was shot and killed during an altercation at the ccc nightclub in detroit .
-
-max MAP: 0.6557968939731829, max MRR: 0.668525113432521
 
 **ABCNN1 - 1 layer SVM**
 
@@ -285,8 +271,6 @@ Q- when did proof die
 
 A- in 2006 proof was shot and killed during an altercation at the ccc nightclub in detroit .
 
-max MAP: 0.6503264699070797, max MRR: 0.663860310928212
-
 **ABCNN2 - 2 layer LR**
 
 Q- who is st patty ? 
@@ -310,9 +294,6 @@ Q- when did proof die
 
 A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and actor from detroit , michigan .
 
-max MAP: 0.709527190475839, max MRR: 0.706527103659273
-
-
 **ABCNN2 - 2 layer SVM**
 
 Q- who is st patty ? 
@@ -334,8 +315,6 @@ A- the original members were guitarist/vocalist peter haycock , guitarist derek 
 Q- when did proof die 
 
 A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and actor from detroit , michigan .
-
-max MAP: 0.702410004825818, max MRR: 0.7076416394056357
 
 **ABCNN2 - 1 layer LR**
 
@@ -361,8 +340,6 @@ Q- when did proof die
 A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and 
 actor from detroit , michigan .
 
-max MAP: 0.6976783762533840, max MRR: 0.6957261930673619
-
 **ABCNN2 - 1 layer SVM**
 
 Q- who is st patty ? 
@@ -387,8 +364,6 @@ Q- when did proof die
 A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and 
 actor from detroit , michigan .
 
-max MAP: 0.6995279173549926, max MRR: 0.6987253940575274
-
 **ABCNN3 - 2 layer LR**
 
 Q- who is st patty ? 
@@ -412,8 +387,6 @@ Q- when did proof die
 
 A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and actor from detroit , michigan.
 
-max MAP: 0.7193757702010519, max MRR: 0.7165993562907142
-
 **ABCNN3 - 2 layer SVM**
 
 Q- who is st patty ?
@@ -435,8 +408,6 @@ A- the original members were guitarist/vocalist peter haycock , guitarist derek 
 Q- when did proof die 
 
 A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and actor from detroit , michigan .
-
-max MAP: 0.7129132538700438, max MRR: 0.7126593833692598
 
 **ABCNN3 - 1 layer LR**
 
@@ -461,8 +432,6 @@ Q- when did proof die
 
 A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and actor from detroit , michigan.
 
-max MAP: 0.7126145192917447, max MRR: 0.7108062618199071
-
 **ABCNN3 - 1 layer SVM**
 
 Q- who is st patty ? 
@@ -484,9 +453,6 @@ A- the original members were guitarist/vocalist peter haycock , guitarist derek 
 Q- when did proof die 
 
 A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and actor from detroit , michigan .
-
-max MAP: 0.7099585687272065, max MRR: 0.7116442579236981
-
 
 ## Conclusion
 
