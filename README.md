@@ -423,6 +423,70 @@ A- in 2006 , proof was shot and killed during an altercation at the ccc nightclu
 
 max MAP: 0.6498818245318789, max MRR: 0.6592214712585085
 
+### BCNN - 1 layer SVM
+
+Q- who is st patty ? 
+
+A- it is named after saint patrick ( ad 385–461 ) , the most commonly recognised of the patron saints of ireland .
+
+Q- when was pokemon first started
+
+A- is a media franchise published and owned by japanese video game company nintendo and created by satoshi tajiri in 1996 .
+
+Q- what does alkali do to liquids ?
+
+A- some authors also define an alkali as a base that dissolves in water . 1 -0.9740697249362577
+
+Q- who are the members of the climax blues band ? 
+
+A- the original members were guitarist/vocalist peter haycock , guitarist derek holt ; keyboardist arthur wood ; bassist richard jones ; 
+drummer george newsome ; and lead vocalist and saxophonist colin cooper .
+
+Q- when did proof die 
+
+A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and 
+actor from detroit , michigan .
+
+max MAP: 0.6507638844777246, max MRR: 0.6581023019809028
+
+
+- BCNN
+
+    |               |          |   MAP   |   MRR   |
+    |:-------------:|:--------:|:-------:|:-------:|
+    | BCNN(1 layer) |    LR    |  0.6498 |  0.6592 |
+    |               |   SVM    |  0.6507 |  0.6581 |
+    | BCNN(2 layer) |  LR      |  0.6510 |  0.6641 |
+    |               | SVM      |  0.6493 |  0.6622 |
+
+- ABCNN-1
+
+    |                  |          |   MAP   |   MRR   |
+    |:----------------:|:--------:|:-------:|:-------:|
+    | ABCNN-1(1 layer) |  LR |  0.6557 |  0.6685 |
+    |                  | SVM |  0.6503 |  0.6638 |
+    | ABCNN-1(2 layer) |  LR |  0.6796 |  0.6884 |
+    |                  | SVM |  0.6757 |  0.6827 |
+
+- ABCNN-2
+
+    |                  |          |   MAP   |   MRR   |
+    |:----------------:|:--------:|:-------:|:-------:|
+    | ABCNN-2(1 layer) |  LR |  0.6976 |  0.6957 |
+    |                  | SVM |  0.6995 |  0.6987 |
+    | ABCNN-2(2 layer) |  LR |  0.7095 |  0.7065 |
+    |                  | SVM |  0.7024 |  0.7076 |
+
+- ABCNN-3
+
+    |                  |          |   MAP   |   MRR   |
+    |:----------------:|:--------:|:-------:|:-------:|
+    | ABCNN-3(1 layer) |  LR |  0.7126 |  0.7108 |
+    |                  | SVM |  0.7099 |  0.7116 |
+    | ABCNN-3(2 layer) |  LR |  0.6571 |  0.6722 |
+    |                  | SVM |  0.7193 |  0.7165 |
+    
+    
 ## Conclusion
 
 ## Papers
