@@ -467,7 +467,7 @@ Comparing performance of Attention based models with other baselines.
     |  WgtWordCnt   | 0.5099 |  0.5132 |
     |  CNN-Cnt      | 0.6520 |  0.6652 |
     |  Addition     | 0.5888 |  0.5929 |
-We can see how ABCNN outperforms every other model also for a few attenbased models performance of our model is better that what is presented in the paper.
+We can see how ABCNN outperforms every other model also for a few attention-based models, performance of our model is better that what is presented in the paper.
 
 ## Papers
 
