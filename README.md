@@ -105,7 +105,7 @@ Q- when did proof die
 
 A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and actor from detroit , michigan.
 
-Max MAP: 0.7126145192917447, max MRR: 0.7108062618199071
+max MAP: 0.7126145192917447, max MRR: 0.7108062618199071
 
 ### ABCNN3 - 2 layer LR
 
