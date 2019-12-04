@@ -43,6 +43,45 @@ They concluded by stating Attention based models can be used to build really str
 
 
 ## Results
+
+- BCNN
+
+    |               |          |   MAP   |   MRR   |
+    |:-------------:|:--------:|:-------:|:-------:|
+    | BCNN(1 layer) |    LR    |  0.6498 |  0.6592 |
+    |               |   SVM    |  0.6507 |  0.6581 |
+    | BCNN(2 layer) |  LR      |  0.6510 |  0.6641 |
+    |               | SVM      |  0.6493 |  0.6622 |
+
+- ABCNN-1
+
+    |                  |          |   MAP   |   MRR   |
+    |:----------------:|:--------:|:-------:|:-------:|
+    | ABCNN-1(1 layer) |  LR |  0.6557 |  0.6685 |
+    |                  | SVM |  0.6503 |  0.6638 |
+    | ABCNN-1(2 layer) |  LR |  0.6796 |  0.6884 |
+    |                  | SVM |  0.6757 |  0.6827 |
+
+- ABCNN-2
+
+    |                  |          |   MAP   |   MRR   |
+    |:----------------:|:--------:|:-------:|:-------:|
+    | ABCNN-2(1 layer) |  LR |  0.6976 |  0.6957 |
+    |                  | SVM |  0.6995 |  0.6987 |
+    | ABCNN-2(2 layer) |  LR |  0.7095 |  0.7065 |
+    |                  | SVM |  0.7024 |  0.7076 |
+
+- ABCNN-3
+
+    |                  |          |   MAP   |   MRR   |
+    |:----------------:|:--------:|:-------:|:-------:|
+    | ABCNN-3(1 layer) |  LR |  0.7126 |  0.7108 |
+    |                  | SVM |  0.7099 |  0.7116 |
+    | ABCNN-3(2 layer) |  LR |  0.6571 |  0.6722 |
+    |                  | SVM |  0.7193 |  0.7165 |
+    
+Below are a few examples results from different networks.
+
 ### ABCNN3 - 1 layer LR
 
 Q- who is st patty ?
@@ -111,7 +150,6 @@ A- some authors also define an alkali as a base that dissolves in water .
 Q- who are the members of the climax blues band ? 
 
 A- the original members were guitarist/vocalist peter haycock , guitarist derek holt ; keyboardist arthur wood ; bassist richard jones ; drummer george newsome ; and lead vocalist and saxophonist colin cooper .
-
 
 Q- when did proof die 
 
@@ -288,9 +326,9 @@ Q- who are the members of the climax blues band ?
 A- the original members were guitarist/vocalist peter haycock , guitarist derek holt ; keyboardist arthur wood ; bassist richard jones ; 
 drummer george newsome ; and lead vocalist and saxophonist colin cooper .
 
-Q- when did proof die in 2006 
+Q- when did proof die 
 
-A- proof was shot and killed during an altercation at the ccc nightclub in detroit .
+A- in 2006 proof was shot and killed during an altercation at the ccc nightclub in detroit .
 
 max MAP: 0.6503264699070797, max MRR: 0.663860310928212
 
@@ -450,42 +488,7 @@ actor from detroit , michigan .
 max MAP: 0.6507638844777246, max MRR: 0.6581023019809028
 
 
-- BCNN
 
-    |               |          |   MAP   |   MRR   |
-    |:-------------:|:--------:|:-------:|:-------:|
-    | BCNN(1 layer) |    LR    |  0.6498 |  0.6592 |
-    |               |   SVM    |  0.6507 |  0.6581 |
-    | BCNN(2 layer) |  LR      |  0.6510 |  0.6641 |
-    |               | SVM      |  0.6493 |  0.6622 |
-
-- ABCNN-1
-
-    |                  |          |   MAP   |   MRR   |
-    |:----------------:|:--------:|:-------:|:-------:|
-    | ABCNN-1(1 layer) |  LR |  0.6557 |  0.6685 |
-    |                  | SVM |  0.6503 |  0.6638 |
-    | ABCNN-1(2 layer) |  LR |  0.6796 |  0.6884 |
-    |                  | SVM |  0.6757 |  0.6827 |
-
-- ABCNN-2
-
-    |                  |          |   MAP   |   MRR   |
-    |:----------------:|:--------:|:-------:|:-------:|
-    | ABCNN-2(1 layer) |  LR |  0.6976 |  0.6957 |
-    |                  | SVM |  0.6995 |  0.6987 |
-    | ABCNN-2(2 layer) |  LR |  0.7095 |  0.7065 |
-    |                  | SVM |  0.7024 |  0.7076 |
-
-- ABCNN-3
-
-    |                  |          |   MAP   |   MRR   |
-    |:----------------:|:--------:|:-------:|:-------:|
-    | ABCNN-3(1 layer) |  LR |  0.7126 |  0.7108 |
-    |                  | SVM |  0.7099 |  0.7116 |
-    | ABCNN-3(2 layer) |  LR |  0.6571 |  0.6722 |
-    |                  | SVM |  0.7193 |  0.7165 |
-    
     
 ## Conclusion
 
