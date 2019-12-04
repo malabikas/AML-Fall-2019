@@ -77,7 +77,7 @@ They concluded by stating Attention based models can be used to build really str
     |:----------------:|:--------:|:-------:|:-------:|
     | ABCNN-3(1 layer) |  LR |  0.7126 |  0.7108 |
     |                  | SVM |  0.7099 |  0.7116 |
-    | ABCNN-3(2 layer) |  LR |  0.6571 |  0.6722 |
+    | ABCNN-3(2 layer) |  LR |  0.7193 |  0.7165 |
     |                  | SVM |  0.7193 |  0.7165 |
     
 Below are a few examples results from different networks.
