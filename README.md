@@ -30,17 +30,16 @@ The experiments were run on a Windows Machine using Python with the following sp
 
 
 ## Experiment
-The paper referred concludes that in Answer Selection the non-attention network BCNN already performs better than the baselines. Attention-based CNNs perform better than CNNs without attention mechanisms. For CNNs, they have test one (one-conv) and two (two-conv)
-convolution-pooling blocks. The ABCNN-2 generally outperforms the  ABCNN-1 and the ABCNN3 surpasses both because, when combine the ABCNN-1 and the ABCNN-2 to form the ABCNN-3, as ability to take attention of finer-grained granularity into consideration in each convolution-pooling block. But, Due to the limited size of training data, increasing the number of convolutional layers did not show any significant improvement in the performance.
+In this exeriment we will be comparing performance of Attention based models with other base line models in NLP tasks such as Answer selection. For this we will be using WikiQA data-set.
+Baselines which are considered are WordCnt; WgtWordCnt; CNN-Cnt (the state-of-theart system): combination of CNN with WordCnt and WgtWordCnt. Apart from the baselines considered we have also considered two LSTM baselines Addition and A-LSTM 
+The models which we are replicating are Bi-CNN, ABCNN1, ABCNN2, ABCNN3.
 
-Baselines which thy have considered, the first three are by Yang et al.: WordCnt; WgtWordCnt; CNN-Cnt (the state-of-theart system): combine CNN with WordCnt and WgtWordCnt. Apart from the baselines considered by Yang, they have also considered two LSTM baselines Addition and A-LSTM 
+IN every models we will be using 2 types of classifiers that is Linear Regression and Support Vector Machines along with Adam Optimiser to further improve the test results presented in the original paper.
 
-In addition, linguistic features contribute in all three tasks: improvements by 0.0321 (MAP) and 0.0338 (MRR).
-They concluded by stating Attention based models can be used to build really strong neural networks.
+The main focus on using Attention based model is to show its wide variety of applications in different types of NLP operations and its effectiveness. Attention-based DL systems have been applied to NLP after their success in computer vision and speech recognition.
 
-
-
-
+They mainly rely on RNNs and end-to-end encoderdecoders for tasks such as machine translation
+In the original paper they have covered 3 different tasks such as Answer secection, Paraphrase Identification and Textual Entailment.
 
 ## Results
 
@@ -78,7 +77,7 @@ They concluded by stating Attention based models can be used to build really str
     | ABCNN-3(1 layer) |  LR |  0.7126 |  0.7108 |
     |                  | SVM |  0.7099 |  0.7116 |
     | ABCNN-3(2 layer) |  LR |  0.7193 |  0.7165 |
-    |                  | SVM |  0.7193 |  0.7165 |
+    |                  | SVM |  0.7129 |  0.7126 |
     
 Below are a few examples results from different networks.
 
@@ -455,6 +454,22 @@ Q- when did proof die
 A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and actor from detroit , michigan .
 
 ## Conclusion
+The author of paper concludes that in Answer Selection the non-attention network BCNN already performs better than the baselines. Attention-based CNNs perform better than CNNs without attention mechanisms. For CNNs, they have test one (one-conv) and two (two-conv)
+convolution-pooling blocks. The ABCNN-2 generally outperforms the  ABCNN-1 and the ABCNN3 surpasses both because, when combine the ABCNN-1 and the ABCNN-2 to form the ABCNN-3, as ability to take attention of finer-grained granularity into consideration in each convolution-pooling block. But, Due to the limited size of training data, increasing the number of convolutional layers did not show any significant improvement in the performance.
+
+From our results we can conclude that attention based definitely provide better results in an NLP model we had data from many different papers to compare the performance of attention-based models with other models like LSTM, Addition and a few other baseline models and attention-based models outperforms all other models.
+
+Comparing performance of Attention based models with other baselines.
+
+    |               |  MAP   |   MRR   |
+    |:-------------:|:------:|:-------:|
+    |   ABCNN       | 0.7193 |  0.7165 |
+    |  A-LSTM       | 0.6381 |  0.6537 |
+    |  WordCnt      | 0.4891 |  0.4924 |
+    |  WgtWordCnt   | 0.5099 |  0.5132 |
+    |  CNN-Cnt      | 0.6520 |  0.6652 |
+    |  Addition     | 0.5888 |  0.5929 |
+We can see how ABCNN outperforms every other model also for a few attenbased models performance of our model is better that what is presented in the paper.
 
 ## Papers
 
