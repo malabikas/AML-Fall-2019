@@ -28,6 +28,15 @@ The experiments were run on a Windows Machine using Python with the following sp
 5. sklearn == 0.21.3
 5. [WikiQA Corpus](https://www.microsoft.com/en-us/download/details.aspx?id=52419)
 
+## Experiment
+In this exeriment we will be comparing performance of Attention based models with other base line models in NLP tasks such as Answer selection. For this we will be using WikiQA data-set.
+Baselines which are considered are WordCnt; WgtWordCnt; CNN-Cnt (the state-of-theart system): combination of CNN with WordCnt and WgtWordCnt. Apart from the baselines considered we have also considered two LSTM baselines Addition and A-LSTM 
+The models which we are replicating are Bi-CNN, ABCNN1, ABCNN2, ABCNN3.
+
+In every models we will be using 2 types of classifiers that is Linear Regression and Support Vector Machines along with Adam Optimiser to further improve the test results presented in the original paper.
+
+The main focus on using Attention based model is to show its wide variety of applications in different types of NLP operations and its effectiveness. Attention-based DL systems are now applied to NLP after their success in computer vision and speech recognition.
+
 ## Procedure
 <describes procedure taken to reproduce result
 Your description should make it possible for someone else to reproduce your own experience. This description could include code, but it does not need to. It should specify the hardware and software environments you used.>
@@ -58,16 +67,6 @@ While reading the corpus, both in training and testing mode, we perform the foll
 
 ![Flowchart](https://github.com/malabikas/AML-Fall-2019/blob/master/Attention.PNG)
 _Taken from Yin et al's ABCNN: Attention-Based Convolutional Neural Network for Modeling Sentence Pairs_
-
-## Experiment
-In this exeriment we will be comparing performance of Attention based models with other base line models in NLP tasks such as Answer selection. For this we will be using WikiQA data-set.
-Baselines which are considered are WordCnt; WgtWordCnt; CNN-Cnt (the state-of-theart system): combination of CNN with WordCnt and WgtWordCnt. Apart from the baselines considered we have also considered two LSTM baselines Addition and A-LSTM 
-The models which we are replicating are Bi-CNN, ABCNN1, ABCNN2, ABCNN3.
-
-In every models we will be using 2 types of classifiers that is Linear Regression and Support Vector Machines along with Adam Optimiser to further improve the test results presented in the original paper.
-
-The main focus on using Attention based model is to show its wide variety of applications in different types of NLP operations and its effectiveness. Attention-based DL systems are now applied to NLP after their success in computer vision and speech recognition.
-
 
 ## Results
 
