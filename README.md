@@ -33,7 +33,7 @@ In this exeriment we will be comparing performance of Attention based models wit
 Baselines which are considered are WordCnt; WgtWordCnt; CNN-Cnt (the state-of-theart system): combination of CNN with WordCnt and WgtWordCnt. Apart from the baselines considered we have also considered two LSTM baselines Addition and A-LSTM 
 The models which we are replicating are Bi-CNN, ABCNN1, ABCNN2, ABCNN3.
 
-In every models we will be using 2 types of classifiers that is Linear Regression and Support Vector Machines along with Adam Optimiser to further improve the test results presented in the original paper.
+For every models we have used 2 types of classifiers, Linear Regression and Support Vector Machines along with Adam as optimizer to further improve the results.
 
 The main focus on using Attention based model is to show its wide variety of applications in different types of NLP operations and its effectiveness. Attention-based DL systems are now applied to NLP after their success in computer vision and speech recognition.
 
