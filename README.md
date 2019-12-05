@@ -114,7 +114,7 @@ Q- who is st patty ?
 
 A- it is named after saint patrick ( ad 385–461 ) , the most commonly recognised of the patron saints of ireland .
 
-Q- when was pokemon first started 
+Q- when was pokemon first started ?
 
 A- is a media franchise published and owned by japanese video game company nintendo and created by satoshi tajiri in 1996 .
 
@@ -127,7 +127,7 @@ Q- who are the members of the climax blues band ?
 A- the original members were guitarist/vocalist peter haycock , guitarist derek holt ; keyboardist arthur wood ; bassist richard jones ; 
 drummer george newsome ; and lead vocalist and saxophonist colin cooper .
 
-Q- when did proof die 
+Q- when did proof die ?
 
 A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and actor from detroit , michigan.
 
