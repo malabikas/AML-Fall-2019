@@ -107,7 +107,7 @@ The main focus on using Attention based model is to show its wide variety of app
     
 Below are a few examples results from different networks.
 
-**BCNN - 2 layer LR**
+**BCNN - 2 layer**
 
 Q- who is st patty ? 
 
@@ -131,78 +131,7 @@ Q- when did proof die
 A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and 
 actor from detroit , michigan .
 
-**BCNN - 2 layer SVM**
-
-Q- who is st patty ? 
-
-A- it is named after saint patrick ( ad 385–461 ) , the most commonly recognised of the patron saints of ireland .
-
-Q- when was pokemon first started 
-
-A- is a media franchise published and owned by japanese video game company nintendo and created by satoshi tajiri in 1996 .
-
-Q- what does alkali do to liquids ? 
-
-A- some authors also define an alkali as a base that dissolves in water .
-
-Q- who are the members of the climax blues band ? 
-
-A- the original members were guitarist/vocalist peter haycock , guitarist derek holt ; keyboardist arthur wood ; bassist richard jones ; 
-drummer george newsome ; and lead vocalist and saxophonist colin cooper .
-
-Q- when did proof die 
-
-A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and 
-actor from detroit , michigan .
-
-**BCNN - 1 layer LR**
-
-Q- who is st patty ? 
-
-A- it is named after saint patrick ( ad 385–461 ) , the most commonly recognised of the patron saints of ireland .
-
-Q- when was pokemon first started 
-
-A- is a media franchise published and owned by japanese video game company nintendo and created by satoshi tajiri in 1996 .
-
-Q- what does alkali do to liquids ? 
-
-A- some authors also define an alkali as a base that dissolves in water .
-
-Q- who are the members of the climax blues band ? 
-
-A- the original members were guitarist/vocalist peter haycock , guitarist derek holt ; keyboardist arthur wood ; bassist richard jones ; 
-drummer george newsome ; and lead vocalist and saxophonist colin cooper .
-
-Q- when did proof die 
-
-A- in 2006 , proof was shot and killed during an altercation at the ccc nightclub in detroit .
-
-**BCNN - 1 layer SVM**
-
-Q- who is st patty ? 
-
-A- it is named after saint patrick ( ad 385–461 ) , the most commonly recognised of the patron saints of ireland .
-
-Q- when was pokemon first started
-
-A- is a media franchise published and owned by japanese video game company nintendo and created by satoshi tajiri in 1996 .
-
-Q- what does alkali do to liquids ?
-
-A- some authors also define an alkali as a base that dissolves in water . 1 -0.9740697249362577
-
-Q- who are the members of the climax blues band ? 
-
-A- the original members were guitarist/vocalist peter haycock , guitarist derek holt ; keyboardist arthur wood ; bassist richard jones ; 
-drummer george newsome ; and lead vocalist and saxophonist colin cooper .
-
-Q- when did proof die 
-
-A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and 
-actor from detroit , michigan .
-
-**ABCNN1 - 2 layer LR**
+**ABCNN1 - 2 layer**
 
 Q- who is st patty ? 
 
@@ -226,77 +155,7 @@ Q- when did proof die
 A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and 
 actor from detroit , michigan .
 
-**ABCNN1 - 2 layer SVM**
-
-Q- who is st patty ? 
-
-A- it is named after saint patrick ( ad 385–461 ) , the most commonly recognised of the patron saints of ireland .
-
-Q- when was pokemon first started 
-
-A- is a media franchise published and owned by japanese video game company nintendo and created by satoshi tajiri in 1996 .
-
-Q- what does alkali do to liquids ? 
-
-A- some authors also define an alkali as a base that dissolves in water .
-
-Q- who are the members of the climax blues band ? 
-
-A- the original members were guitarist/vocalist peter haycock , guitarist derek holt ; keyboardist arthur wood ; bassist richard jones ; 
-drummer george newsome ; and lead vocalist and saxophonist colin cooper .
-
-Q- when did proof die
-
-A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and 
-actor from detroit , michigan .
-
-**ABCNN1 - 1 layer LR**
-
-Q- who is st patty ? 
-
-A- it is named after saint patrick ( ad 385–461 ) , the most commonly recognised of the patron saints of ireland .
-
-Q- when was pokemon first started 
-
-A- is a media franchise published and owned by japanese video game company nintendo and created by satoshi tajiri in 1996 .
-
-Q- what does alkali do to liquids ? 
-
-A- some authors also define an alkali as a base that dissolves in water .
-
-Q- who are the members of the climax blues band ? 
-
-A- the original members were guitarist/vocalist peter haycock , guitarist derek holt ; keyboardist arthur wood ; bassist richard jones ; 
-drummer george newsome ; and lead vocalist and saxophonist colin cooper .
-
-Q- when did proof die 
-
-A- in 2006 , proof was shot and killed during an altercation at the ccc nightclub in detroit .
-
-**ABCNN1 - 1 layer SVM**
-
-Q- who is st patty ? 
-
-A- it is named after saint patrick ( ad 385–461 ) , the most commonly recognised of the patron saints of ireland .
-
-Q- when was pokemon first started 
-
-A- is a media franchise published and owned by japanese video game company nintendo and created by satoshi tajiri in 1996 .
-
-Q- what does alkali do to liquids ? 
-
-A- some authors also define an alkali as a base that dissolves in water .
-
-Q- who are the members of the climax blues band ? 
-
-A- the original members were guitarist/vocalist peter haycock , guitarist derek holt ; keyboardist arthur wood ; bassist richard jones ; 
-drummer george newsome ; and lead vocalist and saxophonist colin cooper .
-
-Q- when did proof die 
-
-A- in 2006 proof was shot and killed during an altercation at the ccc nightclub in detroit .
-
-**ABCNN2 - 2 layer LR**
+**ABCNN2 - 2 layer **
 
 Q- who is st patty ? 
 
@@ -319,77 +178,7 @@ Q- when did proof die
 
 A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and actor from detroit , michigan .
 
-**ABCNN2 - 2 layer SVM**
-
-Q- who is st patty ? 
-
-A- it is named after saint patrick ( ad 385–461 ) , the most commonly recognised of the patron saints of ireland .
-
-Q- when was pokemon first started 
-
-A- is a media franchise published and owned by japanese video game company nintendo and created by satoshi tajiri in 1996 .
-
-Q- what does alkali do to liquids ? 
-
-A- some authors also define an alkali as a base that dissolves in water .
-
-Q- who are the members of the climax blues band ? 
-
-A- the original members were guitarist/vocalist peter haycock , guitarist derek holt ; keyboardist arthur wood ; bassist richard jones ; drummer george newsome ; and lead vocalist and saxophonist colin cooper .
-
-Q- when did proof die 
-
-A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and actor from detroit , michigan .
-
-**ABCNN2 - 1 layer LR**
-
-Q- who is st patty ? 
-
-A- it is named after saint patrick ( ad 385–461 ) , the most commonly recognised of the patron saints of ireland .
-
-Q- when was pokemon first started 
-
-A- is a media franchise published and owned by japanese video game company nintendo and created by satoshi tajiri in 1996 .
-
-Q- what does alkali do to liquids ? 
-
-A- some authors also define an alkali as a base that dissolves in water .
-
-Q- who are the members of the climax blues band ?
-
-A- the original members were guitarist/vocalist peter haycock , guitarist derek holt ; keyboardist arthur wood ; bassist richard jones ; 
-drummer george newsome ; and lead vocalist and saxophonist colin cooper .
-
-Q- when did proof die 
-
-A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and 
-actor from detroit , michigan .
-
-**ABCNN2 - 1 layer SVM**
-
-Q- who is st patty ? 
-
-A- it is named after saint patrick ( ad 385–461 ) , the most commonly recognised of the patron saints of ireland .
-
-Q- when was pokemon first started 
-
-A- is a media franchise published and owned by japanese video game company nintendo and created by satoshi tajiri in 1996 .
-
-Q- what does alkali do to liquids ? 
-
-A- some authors also define an alkali as a base that dissolves in water .
-
-Q- who are the members of the climax blues band ? 
-
-A- the original members were guitarist/vocalist peter haycock , guitarist derek holt ; keyboardist arthur wood ; bassist richard jones ; 
-drummer george newsome ; and lead vocalist and saxophonist colin cooper .
-
-Q- when did proof die 
-
-A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and 
-actor from detroit , michigan .
-
-**ABCNN3 - 2 layer LR**
+**ABCNN3 - 2 layer **
 
 Q- who is st patty ? 
 
@@ -411,73 +200,6 @@ drummer george newsome ; and lead vocalist and saxophonist colin cooper .
 Q- when did proof die 
 
 A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and actor from detroit , michigan.
-
-**ABCNN3 - 2 layer SVM**
-
-Q- who is st patty ?
-
-A- it is named after saint patrick ( ad 385–461 ) , the most commonly recognised of the patron saints of ireland .
-
-Q- when was pokemon first started 
-
-A- is a media franchise published and owned by japanese video game company nintendo and created by satoshi tajiri in 1996 .
-
-Q- what does alkali do to liquids ? 
-
-A- some authors also define an alkali as a base that dissolves in water .
-
-Q- who are the members of the climax blues band ? 
-
-A- the original members were guitarist/vocalist peter haycock , guitarist derek holt ; keyboardist arthur wood ; bassist richard jones ; drummer george newsome ; and lead vocalist and saxophonist colin cooper .
-
-Q- when did proof die 
-
-A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and actor from detroit , michigan .
-
-**ABCNN3 - 1 layer LR**
-
-Q- who is st patty ?
-
-A- it is named after saint patrick ( ad 385–461 ) , the most commonly recognised of the patron saints of ireland .
-
-Q- when was pokemon first started 
-
-A- is a media franchise published and owned by japanese video game company nintendo and created by satoshi tajiri in 1996 .
-
-Q- what does alkali do to liquids ?
-
-A- some authors also define an alkali as a base that dissolves in water .
-
-Q- who are the members of the climax blues band ?
-
-A- the original members were guitarist/vocalist peter haycock , guitarist derek holt ; keyboardist arthur wood ; bassist richard jones ; 
-drummer george newsome ; and lead vocalist and saxophonist colin cooper .
-
-Q- when did proof die 
-
-A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and actor from detroit , michigan.
-
-**ABCNN3 - 1 layer SVM**
-
-Q- who is st patty ? 
-
-A- it is named after saint patrick ( ad 385–461 ) , the most commonly recognised of the patron saints of ireland .
-
-Q- when was pokemon first started 
-
-A- is a media franchise published and owned by japanese video game company nintendo and created by satoshi tajiri in 1996 .
-
-Q- what does alkali do to liquids ? 
-
-A- some authors also define an alkali as a base that dissolves in water .
-
-Q- who are the members of the climax blues band ? 
-
-A- the original members were guitarist/vocalist peter haycock , guitarist derek holt ; keyboardist arthur wood ; bassist richard jones ; drummer george newsome ; and lead vocalist and saxophonist colin cooper .
-
-Q- when did proof die 
-
-A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and actor from detroit , michigan .
 
 ## Conclusion
 The author of paper concludes that in Answer Selection the non-attention network BCNN already performs better than the baselines. Attention-based CNNs perform better than CNNs without attention mechanisms. For CNNs, they have test one (one-conv) and two (two-conv)
