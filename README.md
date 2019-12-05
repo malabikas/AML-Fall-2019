@@ -68,6 +68,31 @@ While reading the corpus, both in training and testing mode, we perform the foll
 ![Flowchart](https://github.com/malabikas/AML-Fall-2019/blob/master/Attention.PNG)
 _Taken from Yin et al's ABCNN: Attention-Based Convolutional Neural Network for Modeling Sentence Pairs_
 
+The above diagram shows the working of BCNN - a basic Bi-CNN with the layers as explained below -
+
+#### Input Layer 
+The Input layer contains the 2 sentences - question sentence _s0_ and candidate answer sentence _s1_ as a feature map initialized as a matrix of the embedded word vector of 300 dimensions times the no of words in _s0_ and _s1_
+Therefore the input layer contains 2 matrices of size 300 x _len(s0)_ and 300 x _len(s1)_
+
+#### Wide Convolution Layer
+We use _tanh_ function in the convolution layer to generate a phrase, the size of which is equal to the filter width.
+
+#### Average Pooling Layer
+
+For BCNN, a pooling layer is used alone while in ABCNN models, the pooling layer is used in conjuntion with weighing attention.
+
+The paper employs 2 pooling layers - _w-ap_ and _all-ap_ which has been found to extract robust features.
+
+For non-final convolution layers, we do average pooling where the convolution layer transforms the inpput feature map of _s_ columns into new feature map of _s+1w-1_ columns, where _w_ is the filter width. When averaged over, the pooling transforms the columns back to _s_ columns. 
+Using this architecture, each consecutive layer gets more and more features staring from words in the bottom layer to phrases in the next and so on. Each level is able to generate more abstract features of higher granularity.
+
+Yin et al found that performance is significantly increased if the output of all pooling layers is provided as an input to the output layer. Thus, before forwarding the result to the output layer, we perform an _all-p_ over all the columns.
+
+#### Final Layer/Logistic Regression(LR) Layer
+
+The last layer is an output layer which is chosen according to the tasks, eg. Logistic Regression for binary classification. 
+
+
 ## Results
 
 - BCNN
