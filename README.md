@@ -31,7 +31,9 @@ The experiments were run on a Windows Machine using Python with the following sp
 4. numpy == 1.17.4
 5. sklearn == 0.21.3
 5. [WikiQA Corpus](https://www.microsoft.com/en-us/download/details.aspx?id=52419)
+
 ---
+
 ## Experiment
 In this exeriment we will be comparing performance of Attention based models with other base line models in NLP tasks such as Answer selection. For this we will be using WikiQA data-set.
 Baselines which are considered are WordCnt; WgtWordCnt; CNN-Cnt (the state-of-theart system): combination of CNN with WordCnt and WgtWordCnt. Apart from the baselines considered we have also considered two LSTM baselines Addition and A-LSTM 
@@ -40,7 +42,9 @@ The models which we are replicating are Bi-CNN, ABCNN1, ABCNN2, ABCNN3.
 For every models we have used 2 types of classifiers, Linear Regression and Support Vector Machines along with Adam as optimizer to further improve the results.
 
 The main focus on using Attention based model is to show its wide variety of applications in different types of NLP operations and its effectiveness. Attention-based DL systems are now applied to NLP after their success in computer vision and speech recognition.
+
 ---
+
 ## Procedure
 <describes procedure taken to reproduce result
 Your description should make it possible for someone else to reproduce your own experience. This description could include code, but it does not need to. It should specify the hardware and software environments you used.>
