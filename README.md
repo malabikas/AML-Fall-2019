@@ -94,7 +94,7 @@ The last layer is an output layer which is chosen according to the tasks, eg. Lo
 
 #### Employing Attention
 
-![ABCNN-1](https://github.com/malabikas/AML-Fall-2019/blob/master/Attention.PNG)
+![ABCNN-1](https://github.com/malabikas/AML-Fall-2019/blob/master/ABCNN-1.PNG)
 _Taken from Yin et al's ABCNN: Attention-Based Convolutional Neural Network for Modeling Sentence Pairs_
 
 
