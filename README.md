@@ -56,6 +56,7 @@ While reading the corpus, both in training and testing mode, we perform the foll
 
 ### BCNN and applying Attention
 
+![Flowchart](Attention.png)
 
 ## Experiment
 In this exeriment we will be comparing performance of Attention based models with other base line models in NLP tasks such as Answer selection. For this we will be using WikiQA data-set.
