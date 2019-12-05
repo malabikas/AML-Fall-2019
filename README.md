@@ -34,7 +34,24 @@ Your description should make it possible for someone else to reproduce your own 
 
 We ran the experiment on the same corpus that is used by the authors for Answer Selection which is WikiQA, an open-domain question answer dataset. 
 
-The structure of
+### Pre-processing:
+
+We used Word2Vec model to initialize the words using 300-dimensional word2vec embeddings. If a word is not present in the embedding, we use the randomly initialized embedding which is passed for all unknown words by uniform sampling from \[-.01,.01].
+
+A sample training data from the corpus contains the following line - 
+```how are glacier caves formed ?	A glacier cave is a cave formed within the ice of a glacier .	1```
+
+The first part of the line is the question, followed by the candidate answer and ending with a label which is either ```0``` or ```1```, where ```0``` indicates wrong answer and ```1``` indicates the right answer.
+
+While reading the corpus, both in training and testing mode, we perform the following steps -
+
+1. Maintain a list of questions.
+2. Maintain a list of candidate answers, tokenized to first 40 letters.
+3. Maintain a list of labels
+4. Maintin a list of word counts for all the words which occur in the _question sentence_ and is _not a stopword_ (we use the standard NLTK's English stopwords), and which also occur in the _candidate answer_
+5. The word count calculated above for a given question-answer pair, the length of the question and the length of the answer all together form the features for the pair.
+6. Calculate IDF for the questions
+
 
 
 
