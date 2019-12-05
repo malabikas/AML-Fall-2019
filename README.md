@@ -155,7 +155,7 @@ Q- when did proof die
 A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and 
 actor from detroit , michigan .
 
-**ABCNN2 - 2 layer **
+**ABCNN2 - 2 layer**
 
 Q- who is st patty ? 
 
@@ -178,7 +178,7 @@ Q- when did proof die
 
 A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and actor from detroit , michigan .
 
-**ABCNN3 - 2 layer **
+**ABCNN3 - 2 layer**
 
 Q- who is st patty ? 
 
