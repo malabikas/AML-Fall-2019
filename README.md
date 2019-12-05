@@ -92,6 +92,11 @@ Yin et al found that performance is significantly increased if the output of all
 
 The last layer is an output layer which is chosen according to the tasks, eg. Logistic Regression for binary classification. 
 
+#### Employing Attention
+
+![ABCNN-1](https://github.com/malabikas/AML-Fall-2019/blob/master/Attention.PNG)
+_Taken from Yin et al's ABCNN: Attention-Based Convolutional Neural Network for Modeling Sentence Pairs_
+
 
 ## Results
 
