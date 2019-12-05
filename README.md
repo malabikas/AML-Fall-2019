@@ -3,8 +3,12 @@ Project repository/page for CS5824/ECE5424 - Advanced Machine Learning project.
 
 This page lists down the observations and results performed as a part of the project under **CS5824/ECE5424 Advanced Machine Learning** in Fall 2019 under *Prof. Dr. Bert Huang*. This project attempts to reproduce a finding from a Machine Learning Research study and present the results of the same.
 
+---
+
 ## ABCNN: Attention-Based Convolutional Neural Network for Modelling Sentence Pairs
 The [paper](https://arxiv.org/pdf/1512.05193.pdf) asserts that Attention-Based Convolutional Neural Networks (CNNs) perform better than CNNs without attention mechanisms. The paper integrated attention into CNNs for sentence pair modelling. Sentence pair modelling is a critical task in many Natural Language Processing (NLP) tasks such as Answer Selection, Paraphrase Identification and Textual Entailment. The experiments were performed for these three tasks. For this project, we are going to focus on Answer Selection.
+
+---
 
 ## Background
 
@@ -15,7 +19,7 @@ s1+ the movie earned $161.5 million
 s1- this was Jerry Reed’s final film appearance
 For AS, correctly answering s0 requires attention on “gross”: s1+ contains a corresponding unit (“earned”) while s1- does not.
 
-
+---
 
 ## Setup
 
@@ -27,7 +31,7 @@ The experiments were run on a Windows Machine using Python with the following sp
 4. numpy == 1.17.4
 5. sklearn == 0.21.3
 5. [WikiQA Corpus](https://www.microsoft.com/en-us/download/details.aspx?id=52419)
-
+---
 ## Experiment
 In this exeriment we will be comparing performance of Attention based models with other base line models in NLP tasks such as Answer selection. For this we will be using WikiQA data-set.
 Baselines which are considered are WordCnt; WgtWordCnt; CNN-Cnt (the state-of-theart system): combination of CNN with WordCnt and WgtWordCnt. Apart from the baselines considered we have also considered two LSTM baselines Addition and A-LSTM 
@@ -36,7 +40,7 @@ The models which we are replicating are Bi-CNN, ABCNN1, ABCNN2, ABCNN3.
 For every models we have used 2 types of classifiers, Linear Regression and Support Vector Machines along with Adam as optimizer to further improve the results.
 
 The main focus on using Attention based model is to show its wide variety of applications in different types of NLP operations and its effectiveness. Attention-based DL systems are now applied to NLP after their success in computer vision and speech recognition.
-
+---
 ## Procedure
 <describes procedure taken to reproduce result
 Your description should make it possible for someone else to reproduce your own experience. This description could include code, but it does not need to. It should specify the hardware and software environments you used.>
@@ -62,6 +66,8 @@ While reading the corpus, both in training and testing mode, we perform the foll
 4. Maintin a list of word counts for all the words which occur in the _question sentence_ and is _not a stopword_ (we use the standard NLTK's English stopwords), and which also occur in the _candidate answer_
 5. The word count calculated above for a given question-answer pair, the length of the question and the length of the answer all together form the features for the pair.
 6. Calculate IDF for the questions
+
+---
 
 ### BCNN and applying Attention
 
@@ -97,6 +103,7 @@ The last layer is an output layer which is chosen according to the tasks, eg. Lo
 ![ABCNN-1](https://github.com/malabikas/AML-Fall-2019/blob/master/ABCNN-1.PNG)
 _Taken from Yin et al's ABCNN: Attention-Based Convolutional Neural Network for Modeling Sentence Pairs_
 
+---
 
 ## Results
 
