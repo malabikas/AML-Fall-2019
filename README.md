@@ -28,6 +28,15 @@ The experiments were run on a Windows Machine using Python with the following sp
 5. sklearn == 0.21.3
 5. [WikiQA Corpus](https://www.microsoft.com/en-us/download/details.aspx?id=52419)
 
+## Procedure
+<describes procedure taken to reproduce result
+Your description should make it possible for someone else to reproduce your own experience. This description could include code, but it does not need to. It should specify the hardware and software environments you used.>
+
+We ran the experiment on the same corpus that is used by the authors for Answer Selection which is WikiQA, an open-domain question answer dataset. 
+
+The structure of
+
+
 
 ## Experiment
 In this exeriment we will be comparing performance of Attention based models with other base line models in NLP tasks such as Answer selection. For this we will be using WikiQA data-set.
