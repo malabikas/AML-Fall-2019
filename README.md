@@ -54,7 +54,7 @@ While reading the corpus, both in training and testing mode, we perform the foll
 5. The word count calculated above for a given question-answer pair, the length of the question and the length of the answer all together form the features for the pair.
 6. Calculate IDF for the questions
 
-
+### BCNN and applying Attention
 
 
 ## Experiment
