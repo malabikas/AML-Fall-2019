@@ -106,7 +106,7 @@ The main focus on using Attention based model is to show its wide variety of app
     | ABCNN-3(2 layer) |  LR |  0.7193 |  0.7165 |
     |                  | SVM |  0.7129 |  0.7126 |
     
-Below are a few examples of the results we obtained for a few questions in our test case.
+Below are examples of the results we obtained for a few questions in our test case.
 
 **ABCNN3 - 2 layer**
 
