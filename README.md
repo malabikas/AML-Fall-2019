@@ -121,8 +121,11 @@ _Taken from Yin et al's ABCNN: Attention-Based Convolutional Neural Network for 
 This attention matrix is then used to derive attention weights by summing all attention values in a given row (for s0) or columns (for s1). For example, for 1st column in conv feature map for s0, this would be sum of all values in 1st row in attention matrix. For 1st column in conv feature map for s1, this would be sum of all values in 1st column of attention matrix. In other words, there is one attention weight for every unit/column in the conv feature map.
 The attention weight is then used to “re-weight” the conv feature map columns. Every column in the pooling output feature map is computed as the attention weighted sum of the “w” conv feature map columns that are being pooled — in our examples above this was 3.
 
+##### ABCNN-3
+![ABCNN-3](https://github.com/malabikas/AML-Fall-2019/blob/master/ABCNN3.PNG)
+_Taken from Yin et al's ABCNN: Attention-Based Convolutional Neural Network for Modeling Sentence Pairs_
 
-
+ABCNN-3, is the combination of the above 2 which is applying attention to the input of convolution and to the output of convolution while pooling.
 
 ---
 
