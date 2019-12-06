@@ -124,6 +124,12 @@ ABCNN-3, is the combination of the above 2 which is applying attention to the in
 
 ---
 
+## Metrics Used
+
+We used Mean Average Precision (MAP) and MRR (Mean Reciprocal Rank) to measure the quality of the results. We compared it against the baselines of word count (WordCnt) and Weighted word count (WgtWordCnt) as measured by Yang et al.
+
+---
+
 ## Results
 
 - BCNN
