@@ -140,7 +140,7 @@ We used Mean Average Precision (MAP) and Mean Reciprocal Rank (MRR) to measure t
 The below tables show the final results that were obtained after the models were trained uing 2 different tyes of classifiers:
 LR - Linear Regression, SVM - Support Vector Machines
 
-In below given results layer represents the number of convolution-pooling blocks used.
+In the below results, the layer number represents the number of convolution-pooling blocks used.
 
 - BCNN
 
@@ -178,9 +178,7 @@ In below given results layer represents the number of convolution-pooling blocks
     | ABCNN-3(2 layer) |  LR |  0.7193 |  0.7165 |
     |                  | SVM |  0.7129 |  0.7126 |
     
-Below are examples of the results we obtained for a few questions in our test case.
-
-**ABCNN3 with 2 convolution layer**
+Below are examples of the results we obtained for a few questions in our test case for ABCNN3 with 2 convolution layer
 
 ```Question: who is st patty ?```
 
