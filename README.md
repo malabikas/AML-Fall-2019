@@ -41,7 +41,7 @@ The experiments were run on a Windows Machine using Python with the following sp
 ---
 
 ## Experiment
-In this exeriment we will be comparing performance of Attention based models with other base line models in NLP tasks such as Answer selection. For this we will be using WikiQA data-set.
+In this experiment we will be comparing performance of Attention based models with other base line models in NLP tasks such as Answer selection. For this we will be using WikiQA data-set.
 Baselines which are considered are WordCnt; WgtWordCnt; CNN-Cnt (the state-of-theart system): combination of CNN with WordCnt and WgtWordCnt. Apart from the baselines considered we have also considered two LSTM baselines Addition and A-LSTM 
 The models which we are replicating are Bi-CNN, ABCNN1, ABCNN2, ABCNN3.
 
@@ -132,11 +132,16 @@ ABCNN-3, is the combination of the above 2 which is applying attention to the in
 
 ## Metrics Used
 
-We used Mean Average Precision (MAP) and MRR (Mean Reciprocal Rank) to measure the quality of the results. We compared it against the baselines of word count (WordCnt) and Weighted word count (WgtWordCnt) as measured by Yang et al.
+We used Mean Average Precision (MAP) and Mean Reciprocal Rank (MRR) to measure the quality of the results. We compared it against the baselines of word count (WordCnt) and Weighted word count (WgtWordCnt) as measured by Yang et al.
 
 ---
 
 ## Results
+
+MRR - Mean Reciprocal Rank
+MAP - Mean Average Precision
+LR - Linear Regression
+SVM - Support Vector Machines
 
 - BCNN
 
@@ -209,14 +214,13 @@ Comparing performance of Attention based models with other baselines.
 
     |               |  MAP   |   MRR   |
     |:-------------:|:------:|:-------:|
-    |   ABCNN       | 0.7193 |  0.7165 |
+    |  ABCNN3       | 0.7193 |  0.7165 |
     |  A-LSTM       | 0.6381 |  0.6537 |
     |  WordCnt      | 0.4891 |  0.4924 |
     |  WgtWordCnt   | 0.5099 |  0.5132 |
     |  CNN-Cnt      | 0.6520 |  0.6652 |
-    |  Addition     | 0.5888 |  0.5929 |
     
-We can see how ABCNN outperforms all other baseline models.
+We were sucessfully able to replicate the reulsts from proposed paper moreover,we can slao see how ABCNN models outperforms all other baseline models.
 
 ## Papers
 
@@ -229,9 +233,6 @@ application of two-level attention models in deep convolutional neural network f
 
 4. Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. 2015. Neural machine translation by jointly learning to align and translate. In Proceedings of ICLR.
 
-5. Jan K Chorowski, Dzmitry Bahdanau, Dmitriy Serdyuk, Kyunghyun Cho, and Yoshua Bengio. 2015. Attention-based models for speech recognition. In Proceedings of NIPS, pages 577–585.
+5. Minh-Thang Luong, Hieu Pham, and Christopher D Manning. 2015. Effective approaches to attentionbased neural machine translation. In Proceedings of EMNLP, pages 1412–1421.
 
-6. Minh-Thang Luong, Hieu Pham, and Christopher D Manning. 2015. Effective approaches to attentionbased neural machine translation. In Proceedings of EMNLP, pages 1412–1421.
-
-7. Jiwei Li, Minh-Thang Luong, and Dan Jurafsky. 2015. A hierarchical neural autoencoder for paragraphs and documents. In Proceedings of ACL, pages 1106–1115.
 
