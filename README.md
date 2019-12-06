@@ -180,26 +180,21 @@ Below are examples of the results we obtained for a few questions in our test ca
 
 **ABCNN3 - 2 layer**
 
-Q- who is st patty ? 
+```Question: who is st patty ?```
 
-A- it is named after saint patrick ( ad 385–461 ) , the most commonly recognised of the patron saints of ireland .
+```Answer: it is named after saint patrick ( ad 385–461 ) , the most commonly recognised of the patron saints of ireland .```
 
-Q- when was pokemon first started ?
+```Question: when was pokemon first started ?```
 
-A- is a media franchise published and owned by japanese video game company nintendo and created by satoshi tajiri in 1996 .
+```Answer: is a media franchise published and owned by japanese video game company nintendo and created by satoshi tajiri in 1996 .```
 
-Q- what does alkali do to liquids ? 
+```Question: who are the members of the climax blues band ?```
 
-A- some authors also define an alkali as a base that dissolves in water .
+```Answer: the original members were guitarist/vocalist peter haycock , guitarist derek holt ; keyboardist arthur wood ; bassist richard jones ; drummer george newsome ; and lead vocalist and saxophonist colin cooper .```
 
-Q- who are the members of the climax blues band ? 
+```Question: when did proof die ?```
 
-A- the original members were guitarist/vocalist peter haycock , guitarist derek holt ; keyboardist arthur wood ; bassist richard jones ; 
-drummer george newsome ; and lead vocalist and saxophonist colin cooper .
-
-Q- when did proof die ?
-
-A- deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and actor from detroit , michigan.
+```Answer: deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and actor from detroit , michigan.```
 
 ## Conclusion
 The author of paper concludes that in Answer Selection the non-attention network BCNN already performs better than the baselines. Attention-based CNNs perform better than CNNs without attention mechanisms. For CNNs, they have test one (one-conv) and two (two-conv)
