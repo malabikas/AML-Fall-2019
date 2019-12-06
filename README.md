@@ -205,7 +205,7 @@ Below are examples of the results we obtained for a few questions in our test ca
 The author of paper concludes that in Answer Selection the non-attention network BCNN already performs better than the baselines. Attention-based CNNs perform better than CNNs without attention mechanisms. For CNNs, they have test one (one-conv) and two (two-conv)
 convolution-pooling blocks. The ABCNN-2 generally outperforms the  ABCNN-1 and the ABCNN3 surpasses both because, when combine the ABCNN-1 and the ABCNN-2 to form the ABCNN-3, as ability to take attention of finer-grained granularity into consideration in each convolution-pooling block. But, Due to the limited size of training data, increasing the number of convolutional layers did not show any significant improvement in the performance.
 
-From our results we can conclude that attention based definitely provide better results in an NLP model we had data from many different papers to compare the performance of attention-based models with other models like LSTM, Addition and a few other baseline models. Also we have used a different optimizer that is ADAM instead of AdaGrad which was used in the paper.
+From our results we can conclude that attention based definitely provide better results in an NLP model we had data from many different papers to compare the performance of attention-based models with other models like LSTM, CNN-Cnt and a few other baseline models. Also we have used a different optimizer that is ADAM instead of AdaGrad which was used in the paper.
 
 Comparing performance of Attention based models with other baselines.
 
