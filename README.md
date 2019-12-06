@@ -53,7 +53,9 @@ We ran the experiment on the same corpus that is used by the authors for Answer 
 We used Word2Vec model to initialize the words using 300-dimensional word2vec embeddings. If a word is not present in the embedding, we use the randomly initialized embedding which is passed for all unknown words by uniform sampling from \[-.01,.01].
 
 A sample training data from the corpus contains the following line - 
+
 ```how are glacier caves formed ?	A glacier cave is a cave formed within the ice of a glacier .	1```
+
 The first part of the line is the question, followed by the candidate answer and ending with a label which is either ```0``` or ```1```, where ```0``` indicates wrong answer and ```1``` indicates the right answer.
 
 While reading the corpus, both in training and testing mode, we perform the following steps -
