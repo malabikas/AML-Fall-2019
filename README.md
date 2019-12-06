@@ -221,15 +221,17 @@ We were sucessfully able to replicate the reulsts from proposed paper moreover,w
 
 ## Papers
 
-1. Chunshui Cao, Xianming Liu, Yi Yang, Yinan Yu, Jiang Wang, Zilei Wang, Yongzhen Huang, Liang Wang, Chang Huang, Wei Xu, Deva Ramanan, and Thomas S. Huang. 2015. Look and think twice: Capturing top-down visual attention with feedback convolutional neural networks. In Proceedings of ICCV, pages 2956–2964.
+1. Wenpeng Yin, Hinrich Schutze, Bing Xiang, and Bowen ¨ Zhou. 2015. ABCNN: attention-based convolutional neural network for modeling sentence pairs. CoRR, abs/1512.05193.
 
-2. Tianjun Xiao, Yichong Xu, Kuiyuan Yang, Jiaxing Zhang, Yuxin Peng, and Zheng Zhang. 2015. The
+2. Chunshui Cao, Xianming Liu, Yi Yang, Yinan Yu, Jiang Wang, Zilei Wang, Yongzhen Huang, Liang Wang, Chang Huang, Wei Xu, Deva Ramanan, and Thomas S. Huang. 2015. Look and think twice: Capturing top-down visual attention with feedback convolutional neural networks. In Proceedings of ICCV, pages 2956–2964.
+
+3. Tianjun Xiao, Yichong Xu, Kuiyuan Yang, Jiaxing Zhang, Yuxin Peng, and Zheng Zhang. 2015. The
 application of two-level attention models in deep convolutional neural network for fine-grained image classification. In Proceedings of CVPR, pages 842–850. 
 
-3. Yi Yang, Wen-tau Yih, and Christopher Meek. 2015. WIKIQA: A challenge dataset for open-domain question answering. In Proceedings of EMNLP, pages 2013–2018.
+4. Yi Yang, Wen-tau Yih, and Christopher Meek. 2015. WIKIQA: A challenge dataset for open-domain question answering. In Proceedings of EMNLP, pages 2013–2018.
 
-4. Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. 2015. Neural machine translation by jointly learning to align and translate. In Proceedings of ICLR.
+5. Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. 2015. Neural machine translation by jointly learning to align and translate. In Proceedings of ICLR.
 
-5. Minh-Thang Luong, Hieu Pham, and Christopher D Manning. 2015. Effective approaches to attentionbased neural machine translation. In Proceedings of EMNLP, pages 1412–1421.
+6. Minh-Thang Luong, Hieu Pham, and Christopher D Manning. 2015. Effective approaches to attentionbased neural machine translation. In Proceedings of EMNLP, pages 1412–1421.
 
 
