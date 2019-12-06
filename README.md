@@ -137,14 +137,10 @@ We used Mean Average Precision (MAP) and Mean Reciprocal Rank (MRR) to measure t
 ---
 
 ## Results
+The below tables show the final results that were obtained while running different NN models on different classifiers:
 
-MRR - Mean Reciprocal Rank
 
-MAP - Mean Average Precision
-
-LR - Linear Regression
-
-SVM - Support Vector Machines
+LR - Linear Regression, SVM - Support Vector Machines
 
 - BCNN
 
@@ -223,7 +219,7 @@ Comparing performance of Attention based models with other baselines.
     |  WgtWordCnt   | 0.5099 |  0.5132 |
     |  CNN-Cnt      | 0.6520 |  0.6652 |
     
-We were sucessfully able to replicate the reulsts from proposed paper moreover,we can slao see how ABCNN models outperforms all other baseline models.
+We were sucessfully able to replicate the reulsts from proposed paper moreover,we can also see that ABCNN models outperforms all other baseline models which indicates that ABCNNs are generally strong NN systems.
 
 ## Papers
 
