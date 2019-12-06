@@ -1,12 +1,14 @@
 # AML-Fall-2019
-# Project repository/page for CS5824/ECE5424 - Advanced Machine Learning project. 
+# Project page for CS5824/ECE5424 - Advanced Machine Learning 
 
 This page lists down the observations and results performed as a part of the project under **CS5824/ECE5424 Advanced Machine Learning** in Fall 2019 under *Prof. Dr. Bert Huang*. This project attempts to reproduce a finding from a Machine Learning Research study and present the results of the same.
 
 ---
 
 ## ABCNN: Attention-Based Convolutional Neural Network for Modelling Sentence Pairs
-The [paper](https://arxiv.org/pdf/1512.05193.pdf) asserts that Attention-Based Convolutional Neural Networks (CNNs) perform better than CNNs without attention mechanisms. The paper integrated attention into CNNs for sentence pair modelling. Sentence pair modelling is a critical task in many Natural Language Processing (NLP) tasks such as Answer Selection, Paraphrase Identification and Textual Entailment. The experiments were performed for these three tasks. For this project, we are going to focus on Answer Selection.
+The [paper](https://arxiv.org/pdf/1512.05193.pdf) by Yin et al. assert that Attention-Based Convolutional Neural Networks (CNNs) perform better than CNNs without attention mechanisms. The paper integrated attention into CNNs for sentence pair modelling. Sentence pair modelling is a critical task in many Natural Language Processing (NLP) tasks such as Answer Selection, Paraphrase Identification and Textual Entailment. The experiments were performed for these three tasks. 
+
+For this project, we are going to focus on Answer Selection.
 
 ---
 
@@ -67,8 +69,8 @@ While reading the corpus, both in training and testing mode, we perform the foll
 2. Maintain a list of candidate answers, tokenized to first 40 letters.
 3. Maintain a list of labels
 4. Maintin a list of word counts for all the words which occur in the _question sentence_ and is _not a stopword_ (we use the standard NLTK's English stopwords), and which also occur in the _candidate answer_
-5. The word count calculated above for a given question-answer pair, the length of the question and the length of the answer all together form the features for the pair.
-6. Calculate IDF for the questions
+5. Maintain a list of Inverted Document Frequency (IDF) for all the words in the candidate answers.
+6. The word count calculated above for a given question-answer pair, weighted word count calculated using IDF, the length of the question and the length of the answer all together form the features for the pair.
 
 ---
 
