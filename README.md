@@ -114,7 +114,8 @@ _Taken from Yin et al's ABCNN: Attention-Based Convolutional Neural Network for 
 4. The convolution operation is now performed on the resulting model which is both the input representation and the attention feature map which was calculated above.
 
 ##### ABCNN-2
-
+![ABCNN-1](https://github.com/malabikas/AML-Fall-2019/blob/master/ABCNN-2added.PNG)
+_Taken from Yin et al's ABCNN: Attention-Based Convolutional Neural Network for Modeling Sentence Pairs_
 
 
 
