@@ -13,11 +13,14 @@ The [paper](https://arxiv.org/pdf/1512.05193.pdf) asserts that Attention-Based C
 ## Background
 
 Modeling a pair of sentences is a critical task for many NLP applications. 
-<need to edit> 
-s0 how much did Waterboy gross?
-s1+ the movie earned $161.5 million
-s1- this was Jerry Reed’s final film appearance
-For AS, correctly answering s0 requires attention on “gross”: s1+ contains a corresponding unit (“earned”) while s1- does not.
+The following example illustrates it, which is taken from the base paper - 
+
+```Question:  how much did Waterboy gross?```
+
+```Candidate Answer 1: the movie earned $161.5 million```
+
+```Candidate Answer 2: this was Jerry Reed’s final film appearance```
+To correctly answer the question, attention is required on _gross_ - the first candidate answer contains a corresponding unit _earned_ while the second one does not.
 
 ---
 
