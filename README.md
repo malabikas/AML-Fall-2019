@@ -139,8 +139,11 @@ We used Mean Average Precision (MAP) and Mean Reciprocal Rank (MRR) to measure t
 ## Results
 
 MRR - Mean Reciprocal Rank
+
 MAP - Mean Average Precision
+
 LR - Linear Regression
+
 SVM - Support Vector Machines
 
 - BCNN
