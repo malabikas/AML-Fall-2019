@@ -43,7 +43,7 @@ The experiments were run on a Windows Machine using Python with the following sp
 ## Experiment
 In this experiment we will be comparing performance of Attention based models with other base line models for Answer selection.
 
-Baselines which are considered are WordCnt; WgtWordCnt; CNN-Cnt (the state-of-theart system): combination of CNN with WordCnt and WgtWordCnt. Apart from the baselines considered, we have also taken into account A-LSTM.
+For baselines we have considered methods like WordCnt; WgtWordCnt; CNN-Cnt (the state-of-theart system): combination of CNN with WordCnt and WgtWordCnt. Apart from the baselines considered, we have also taken into account A-LSTM and have referred to their benchmark values directly from the paper.
 The models which we are replicating are Bi-CNN, ABCNN1, ABCNN2, ABCNN3.
 
 For every models we have used 2 types of classifiers, Linear Regression and Support Vector Machines along with Adam as optimizer to further improve the results.
@@ -200,12 +200,12 @@ Below are examples of the results we obtained for a few questions in our test ca
 
 ```Answer: deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and actor from detroit , michigan.```
 
----
+
 ## Conclusion
 The author of paper concludes that in Answer Selection the non-attention network BCNN already performs better than the baselines. Attention-based CNNs perform better than CNNs without attention mechanisms. For CNNs, they have test one (one-conv) and two (two-conv)
-convolution-pooling blocks. The ABCNN-2 generally outperforms the  ABCNN-1 and the ABCNN3 surpasses both because, when combine the ABCNN-1 and the ABCNN-2 to form the ABCNN-3, as ability to take attention of finer-grained granularity into consideration in each convolution-pooling block. But, Due to the limited size of training data, increasing the number of convolutional layers did not show any significant improvement in the performance.
+convolution-pooling blocks. The ABCNN-2 generally outperforms the  ABCNN-1 and the ABCNN3 surpasses both because, when combine the ABCNN-1 and the ABCNN-2 to form the ABCNN-3, as ability to take attention of finer-grained granularity into consideration in each convolution-pooling block. But, due to the limited size of training data, increasing the number of convolutional layers did not show any significant improvement in the performance.
 
-From our results we can conclude that attention based definitely provide better results in an NLP model we had data from many different papers to compare the performance of attention-based models with other models like LSTM, CNN-Cnt and a few other baseline models. Also we have used a different optimizer that is ADAM instead of AdaGrad which was used in the paper.
+From our results we can conclude that attention based definitely provide better results in an NLP model we had data from many different papers to compare the performance of attention-based models with methods like LSTM, CNN-Cnt and a few other baseline models. Also we have used a different optimizer that is ADAM instead of AdaGrad which was used in the paper.
 
 Comparing performance of Attention based models with other baselines.
 
