@@ -139,6 +139,7 @@ We used Mean Average Precision (MAP) and Mean Reciprocal Rank (MRR) to measure t
 ## Results
 The below tables show the final results that were obtained after the models were trained uing 2 different tyes of classifiers:
 LR - Linear Regression, SVM - Support Vector Machines
+
 In below given results layer represents the number of convolution-pooling blocks used.
 
 - BCNN
