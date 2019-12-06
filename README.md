@@ -20,6 +20,7 @@ The following example illustrates it, which is taken from the base paper -
 ```Candidate Answer 1: the movie earned $161.5 million```
 
 ```Candidate Answer 2: this was Jerry Reed’s final film appearance```
+
 To correctly answer the question, attention is required on _gross_ - the first candidate answer contains a corresponding unit _earned_ while the second one does not.
 
 ---
