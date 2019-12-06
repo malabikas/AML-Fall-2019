@@ -1,5 +1,5 @@
 # AML-Fall-2019
-Project repository/page for CS5824/ECE5424 - Advanced Machine Learning project. 
+# Project repository/page for CS5824/ECE5424 - Advanced Machine Learning project. 
 
 This page lists down the observations and results performed as a part of the project under **CS5824/ECE5424 Advanced Machine Learning** in Fall 2019 under *Prof. Dr. Bert Huang*. This project attempts to reproduce a finding from a Machine Learning Research study and present the results of the same.
 
@@ -46,9 +46,6 @@ The main focus on using Attention based model is to show its wide variety of app
 ---
 
 ## Procedure
-<describes procedure taken to reproduce result
-Your description should make it possible for someone else to reproduce your own experience. This description could include code, but it does not need to. It should specify the hardware and software environments you used.>
-
 We ran the experiment on the same corpus that is used by the authors for Answer Selection which is WikiQA, an open-domain question answer dataset. 
 
 ### Pre-processing:
@@ -56,14 +53,10 @@ We ran the experiment on the same corpus that is used by the authors for Answer 
 We used Word2Vec model to initialize the words using 300-dimensional word2vec embeddings. If a word is not present in the embedding, we use the randomly initialized embedding which is passed for all unknown words by uniform sampling from \[-.01,.01].
 
 A sample training data from the corpus contains the following line - 
-
-
 ```how are glacier caves formed ?	A glacier cave is a cave formed within the ice of a glacier .	1```
-
 The first part of the line is the question, followed by the candidate answer and ending with a label which is either ```0``` or ```1```, where ```0``` indicates wrong answer and ```1``` indicates the right answer.
 
 While reading the corpus, both in training and testing mode, we perform the following steps -
-
 1. Maintain a list of questions.
 2. Maintain a list of candidate answers, tokenized to first 40 letters.
 3. Maintain a list of labels
