@@ -104,8 +104,22 @@ The last layer is an output layer which is chosen according to the tasks, eg. Lo
 
 #### Employing Attention
 
+##### ABCNN-1
 ![ABCNN-1](https://github.com/malabikas/AML-Fall-2019/blob/master/ABCNN-1.PNG)
 _Taken from Yin et al's ABCNN: Attention-Based Convolutional Neural Network for Modeling Sentence Pairs_
+
+1. In ABCNN-1, attention is introduced before the convolution operation. The input representation feature map for both sentences _s0_ and _s1_, are “matched” to arrive at the Attention Matrix.
+2. Every cell in the attention matrix, _Aij_, represents the attention score between the _ith_ word in _s0_ and _jth_ word in _s1_. In the paper this score is the Euclidean distance.
+3. The attention matrix is transformed back to original dimension using weights.
+4. The convolution operation is now performed on the resulting model which is both the input representation and the attention feature map which was calculated above.
+
+##### ABCNN-2
+
+
+
+
+
+
 
 ---
 
