@@ -184,18 +184,22 @@ Below are examples of the results we obtained for a few questions in our test ca
 
 ```Answer: it is named after saint patrick ( ad 385–461 ) , the most commonly recognised of the patron saints of ireland .```
 
+---
 ```Question: when was pokemon first started ?```
 
 ```Answer: is a media franchise published and owned by japanese video game company nintendo and created by satoshi tajiri in 1996 .```
 
+---
 ```Question: who are the members of the climax blues band ?```
 
 ```Answer: the original members were guitarist/vocalist peter haycock , guitarist derek holt ; keyboardist arthur wood ; bassist richard jones ; drummer george newsome ; and lead vocalist and saxophonist colin cooper .```
 
+---
 ```Question: when did proof die ?```
 
 ```Answer: deshaun dupree holton ( october 2 , 1973 – april 11 , 2006 ) , better known by his stage name proof , was an american rapper and actor from detroit , michigan.```
 
+---
 ## Conclusion
 The author of paper concludes that in Answer Selection the non-attention network BCNN already performs better than the baselines. Attention-based CNNs perform better than CNNs without attention mechanisms. For CNNs, they have test one (one-conv) and two (two-conv)
 convolution-pooling blocks. The ABCNN-2 generally outperforms the  ABCNN-1 and the ABCNN3 surpasses both because, when combine the ABCNN-1 and the ABCNN-2 to form the ABCNN-3, as ability to take attention of finer-grained granularity into consideration in each convolution-pooling block. But, Due to the limited size of training data, increasing the number of convolutional layers did not show any significant improvement in the performance.
