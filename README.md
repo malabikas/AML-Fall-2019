@@ -94,7 +94,7 @@ For BCNN, a pooling layer is used alone while in ABCNN models, the pooling layer
 
 The paper employs 2 pooling layers - _w-ap_ and _all-ap_ which has been found to extract robust features.
 
-For non-final convolution layers, we do average pooling where the convolution layer transforms the inpput feature map of _s_ columns into new feature map of _s+1w-1_ columns, where _w_ is the filter width. When averaged over, the pooling transforms the columns back to _s_ columns. 
+For non-final convolution layers, we do average pooling where the convolution layer transforms the inpput feature map of _s_ columns into new feature map of _s+w-1_ columns, where _w_ is the filter width. When averaged over, the pooling transforms the columns back to _s_ columns. 
 Using this architecture, each consecutive layer gets more and more features staring from words in the bottom layer to phrases in the next and so on. Each level is able to generate more abstract features of higher granularity.
 
 Yin et al found that performance is significantly increased if the output of all pooling layers is provided as an input to the output layer. Thus, before forwarding the result to the output layer, we perform an _all-p_ over all the columns.
